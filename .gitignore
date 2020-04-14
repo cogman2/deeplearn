@@ -1,0 +1,6 @@
+*.jpg
+*.pyc
+*.py~
+.idea/
+*.exe
+.git/
