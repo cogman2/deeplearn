@@ -5,15 +5,16 @@ import scipy.misc
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import imshow
 from PIL import Image
-from nst_utils import *
+from artGeneration.utils import *
 import numpy as np
 import tensorflow as tf
 import pprint
-%matplotlib inline
+# %matplotlib inline
 
-pp = print.PrettyPrinter(indent=4)
-model = load_vgg_model("pretrained-model/imagenet-vgg-verydeep-19.mat")
-pp.pprint(model)
+#pp = print.PrettyPrinter(indent=4)
+model = load_vgg_model("../data/imagenet-vgg-verydeep-19.mat")
+#model = tf.keras.models.model()
+#pp.pprint(model)
 
 import os
 import sys
